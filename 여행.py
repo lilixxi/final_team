@@ -1,6 +1,8 @@
 import streamlit as st
 import base64
 
+### 
+####테스테스테ㅡ안ㅇ리ㅏㅓㄴㅇ
 # 이미지를 base64 문자열로 변환하는 함수
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
