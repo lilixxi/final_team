@@ -30,8 +30,8 @@ if st.session_state.page == "메인":
 if st.session_state.page == "챗봇":
     # OpenAI API 키 설정
     openai_api_key = "YOUR_OPENAI_API_KEY"
-    QDRANT_URL = "https://6e46b2c2-f28a-4f28-854d-432ab699fdfd.europe-west3-0.gcp.cloud.qdrant.io"
-    QDRANT_API_KEY = "u2eejPgTwIyhr7BVjFBtkjGdGYPWvzQTBkoYycErtm5cyrFjwEEH9w"
+    QDRANT_URL = ""
+    QDRANT_API_KEY = ""
     COLLECTION_NAME = "son99_d"
 
     client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
